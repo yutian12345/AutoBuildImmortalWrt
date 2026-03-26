@@ -1,4 +1,4 @@
-#!/bin/bash
+3#!/bin/bash
 # ============= imm仓库外的第三方插件==============
 # ============= 若启用 则打开注释 ================
 # ============= 但此文件也可以处理仓库内的软件去留 本质上是做了一个PACKAGES字符串的拼接 ================
@@ -207,4 +207,4 @@ CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-ttyd-zh-cn"
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-zerotier-zh-cn"
 # 补齐运行环境
 # 终极补强：脚本环境 + 硬件调试工具 + VPN驱动
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES bash sshpass easy-rsa python3-light parted kmod-tun ethtool lm-sensors iperf3 htop"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES bash sshpass python3-light parted kmod-tun ethtool lm-sensors iperf3 htop"
