@@ -207,4 +207,4 @@ CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-ttyd-zh-cn"
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-zerotier-zh-cn"
 # 补齐运行环境
 # 终极补强：脚本环境 + 硬件调试工具 + VPN驱动
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES bash sshpass  python3-light parted kmod-tun ethtool lm-sensors iperf3 htop luci-app-vlmcsd luci-i18n-vlmcsd-zh-cn"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES bash sshpass python3 parted kmod-tun ethtool lm-sensors iperf3 htop luci-app-vlmcsd luci-i18n-vlmcsd-zh-cn luci-app-cpufreq luci-i18n-cpufreq-zh-cn luci-app-fan luci-i18n-fan-zh-cn collectd-mod-thermal"
